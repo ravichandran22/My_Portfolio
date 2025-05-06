@@ -20,6 +20,8 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import testing from "./tech/software-testing.png";
+import wordpress from "./tech/wordpress.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -36,6 +38,9 @@ import project3 from "./project3.png";
 import project4 from "./project4.png";
 import project5 from "./project5.png";
 import project6 from "./project6.png";
+import advanceAgility from "./advance-agility.jpeg";
+import wedriveglobal from "./wedriveglobal.png";
+import PoliticalVaaradhi from "./PoliticalVaaradhi.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -50,6 +55,9 @@ export {
   logo,
   backend,
   creator,
+  advanceAgility,
+  wedriveglobal,
+  PoliticalVaaradhi,
   mobile,
   web,
   preview,
@@ -65,6 +73,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  wordpress,
+  testing,
   redux,
   tailwind,
   typescript,

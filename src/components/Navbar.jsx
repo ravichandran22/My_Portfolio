@@ -24,15 +24,15 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex items-center gap-4"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo_name} alt="Logo" className="w-14 h-14 object-contain" />
+          <img src={logo_name} alt="Logo" className="w-8 h-14 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Aiswarya&nbsp;<span className="sm:block hidden">| Developer</span>
+            Ravichandran R&nbsp;<span className="sm:block hidden">| Dev</span>
           </p>
         </Link>
 

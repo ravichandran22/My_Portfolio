@@ -11,6 +11,10 @@ import {
   html,
   css,
   reactjs,
+  advanceAgility,
+  wedriveglobal,
+  PoliticalVaaradhi,
+  testing,
   redux,
   tailwind,
   nodejs,
@@ -36,11 +40,12 @@ import {
   instagram,
   twitter,
   github,
+  wordpress
 } from "../assets";
 
 import Youtubeimg from "../assets//Youtubeimg.png";
 import Travel from '../assets//Travel.png'
-import logo_name from "../assets//logo_name.svg"
+import logo_name from "../assets//letter-r.png"
 import LinkedIn from '../assets//LinkedIn.svg';
 export {logo_name};
 import Boostrap from "../assets/tech/Boostrap.png";
@@ -70,17 +75,17 @@ export const navLinks = [
 // Services
 const services = [
   {
+    title: "Software Testing",
+    icon: testing,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React.js Developer",
-    icon: reactjs,
-  },
-  {
-    title: "JS Developer",
-    icon: javascript,
-  },
+    title: "WordPress Developer",
+    icon: wordpress,
+  }
 ];
 
 // Technologies
@@ -110,10 +115,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -130,16 +131,41 @@ const technologies = [
 // Experiences
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "H2",
+    title: "Frontend Developer",
+    company_name: "Nexevo Technologies",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "August 2023 - January 2024",
+    date: "September 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Handled frontend technologies with Reactjs, Tailwind css, Redux Toolkit.",
-      "Gained valuable honed  expertise in HTML, CSS, JavaScript, React, Tailwind CSS, and Redux-toolkit through hands-on involvement in real time webapplication projects.",
-      "Used git as a Version Control System.",
+      "Developed and maintained responsive web applications using React.js, Redux Toolkit, and Tailwind CSS.",
+      "Worked extensively with frontend technologies including HTML, CSS, JavaScript, React, and Redux Toolkit on real-time web application projects.",
+      "Built and customized WordPress UI projects using HTML, CSS, Bootstrap, JavaScript, and jQuery to deliver pixel-perfect, user-friendly interfaces.",
+      "Collaborated using Git and GitHub for version control and code management across all projects.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Kickstart Digital",
+    icon: wordpress,
+    iconBg: "#383E56",
+    date: "July 2022 - November 2023",
+    points: [
+      "Gained hands-on experience in developing and customizing WordPress websites, including theme setup, plugin configuration, and UI enhancements based on client requirements.",
+      "Strengthened frontend development skills using HTML, CSS, Bootstrap, JavaScript, and jQuery to build responsive and visually appealing user interfaces.",
+      "Learned to work efficiently with version control systems like Git and GitHub, enabling smooth collaboration and code management.",
+      "Developed a strong understanding of website performance optimization, including techniques like image compression, caching, and code minification.",
+    ],
+  },
+  {
+    title: "QA Analyst",
+    company_name: "Auction Software",
+    icon: testing,
+    iconBg: "#383E56",
+    date: "March 2021 - Augest 2021",
+    points: [
+      "Conducted manual testing for web and mobile applications, including personal React.js projects, identifying defects and improving overall product quality by 15%.",
+      "Managed defect reporting and tracking, reducing defect resolution time by 30% and increasing product reliability by 15%.",
+      "Demonstrated a strong understanding of SDLC and STLC, with experience in test planning, case preparation, and execution, increasing testing efficiency by 25%.",
     ],
   },
  
@@ -176,94 +202,92 @@ const testimonials = [
 // Projects
 const projects = [
   {
-    name: "STREAMSYNC",
+    name: "Advance Agility",
     description:
-      "Streamsync clone incorporating the YouTube API, I've integrated live chat functionality, Togglebar, nested Comments,Shimmer UI .   API POLLING , API INTERATION",
+      "Developed a fully responsive corporate website using HTML, CSS, JS, and Bootstrap with a focus on clean UI, mobile optimization, and smooth user experience.",
     tags: [
       {
-        name: "react",
+        name: "html5",
         color: "blue-text-gradient",
       },
       {
-        name: "Redux-toolkit",
+        name: "css3",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: Youtubeimg,
-    source_code_link: "https://github.com/aiswarya-cs/YOUTUBE-CLONE",
-    live_site_link: "https://wondrous-wisp-8b7d2b.netlify.app",
+    image: advanceAgility,
+    live_site_link: "https://advanceagility.co.uk/",
   },
   {
-    name: "GLOBETREK ADVENTURES",
+    name: "We Drive Global",
     description:
-      "Website utilizing React, AOS library, and SCSS.This website that enable all of the most famous places to visit.Animated scrolling to enhance user engagement using Aos library.",
+      "Developed a fully responsive corporate website using HTML, CSS, JS, and Bootstrap with a focus on clean UI, mobile optimization, and smooth user experience.",
     tags: [
       {
-        name: "react",
+        name: "html5",
         color: "blue-text-gradient",
       },
       {
-        name: "Aos Library",
+        name: "css3",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "SCSS",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: Travel,
-    source_code_link: "https://github.com/aiswarya-cs/Travel_Tour",
-    live_site_link: "https://travelworld-067f28.netlify.app/",
+    image: wedriveglobal,
+    live_site_link: "https://www.wedriveglobal.com/",
   },
   {
-    name: "Cinemix - A Netflix Clone",
+    name: "Political Vaaradhi",
     description:
-      "A Netflix clone is a streaming platform designed to replicate the features and functionalities of the popular online streaming service Cinemix.",
+      "Developed a fully responsive corporate website using HTML, CSS, JS, and Bootstrap with a focus on clean UI, mobile optimization, and smooth user experience.",
     tags: [
       {
-        name: "react",
+        name: "html5",
         color: "blue-text-gradient",
       },
       {
-        name: "Boostrap",
+        name: "css3",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "UseContext",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
-    source_code_link: "https://github.com/aiswarya-cs/Cinemix--A-Netflix-Clone.git",
-    live_site_link: "https://github.com/aiswarya-cs/Cinemix--A-Netflix-Clone.git",
+    image: PoliticalVaaradhi,
+    live_site_link: "https://www.politicalvaaradhi.com/",
   },
-  
 ];
 
 const socials = [
   {
-    name: "Instagram",
-    icon: instagram,
-    link: "https://www.instagram.com/aiswarya_c.s___?igsh=MWhkZnBtcXU2anc1YQ==",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com",
-  },
-  {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/aiswarya-cs",
+    link: "https://github.com/ravichandran22",
   },
   {
     name:"LinkedIn",
     icon:LinkedIn,
-    link:"https://www.linkedin.com/in/aiswarya-c-s-32a60a25a/ "
+    link:"https://www.linkedin.com/in/ravi-chandran-r/"
   }
 ];
 
