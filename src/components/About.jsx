@@ -49,9 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Developer with experience in  Javascript, and expertise in frameworks like Reactjs and also worked in HTML5,CSS3, Tailwind CSS ,Redux-toolk .I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      I’m a Frontend Developer with 3+ years of experience building responsive and high-performance web applications using React.js and JavaScript (ES6+). Skilled in creating scalable, user-friendly interfaces with HTML, CSS, and Tailwind CSS, I focus on delivering SEO-friendly and visually engaging digital solutions that bring ideas to life.
       </motion.p>
 
       {/* Service Card */}

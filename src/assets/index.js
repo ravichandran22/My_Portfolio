@@ -38,6 +38,9 @@ import project3 from "./project3.png";
 import project4 from "./project4.png";
 import project5 from "./project5.png";
 import project6 from "./project6.png";
+import youtubeClone from "./react-youtube-clone.png";
+import blogApp from "./react-blog-app.png";
+import todoApp from "./react-todo-app.png";
 import advanceAgility from "./advance-agility.jpeg";
 import wedriveglobal from "./wedriveglobal.png";
 import PoliticalVaaradhi from "./PoliticalVaaradhi.png";
@@ -55,6 +58,9 @@ export {
   logo,
   backend,
   creator,
+  youtubeClone,
+  blogApp,
+  todoApp,
   advanceAgility,
   wedriveglobal,
   PoliticalVaaradhi,

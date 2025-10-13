@@ -11,6 +11,9 @@ import {
   html,
   css,
   reactjs,
+  youtubeClone,
+  blogApp,
+  todoApp,
   advanceAgility,
   wedriveglobal,
   PoliticalVaaradhi,
@@ -79,12 +82,12 @@ export const navLinks = [
 // Services
 const services = [
   {
-    title: "Software Testing",
-    icon: testing,
-  },
-  {
     title: "Web Developer",
     icon: web,
+  },
+  {
+    title: "Software Testing",
+    icon: testing,
   },
   {
     title: "WordPress Developer",
@@ -141,10 +144,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2024 - Present",
     points: [
-      "Developed and maintained responsive web applications using React.js, Redux Toolkit, and Tailwind CSS.",
-      "Worked extensively with frontend technologies including HTML, CSS, JavaScript, React, and Redux Toolkit on real-time web application projects.",
-      "Built and customized WordPress UI projects using HTML, CSS, Bootstrap, JavaScript, and jQuery to deliver pixel-perfect, user-friendly interfaces.",
-      "Collaborated using Git and GitHub for version control and code management across all projects.",
+      "Developed and maintained responsive websites using HTML, CSS, JavaScript, Bootstrap, and React.js.",
+      "Customized and optimized WordPress & WooCommerce sites for better performance and user experience.",
+      "Managed Web Hosting, Domain Setup, and Website Deployment to ensure smooth operations.",
+      "Worked closely with clients to understand their needs and deliver personalized website solutions.",
+      "Used Git & GitHub for version control and project collaboration.",
+      "Led a team of developers, handling Client Interactions, Project Planning, and Execution."
     ],
   },
   {
@@ -154,10 +159,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - November 2023",
     points: [
-      "Gained hands-on experience in developing and customizing WordPress websites, including theme setup, plugin configuration, and UI enhancements based on client requirements.",
-      "Strengthened frontend development skills using HTML, CSS, Bootstrap, JavaScript, and jQuery to build responsive and visually appealing user interfaces.",
-      "Learned to work efficiently with version control systems like Git and GitHub, enabling smooth collaboration and code management.",
-      "Developed a strong understanding of website performance optimization, including techniques like image compression, caching, and code minification.",
+      "Delivered 10+ client-specific WordPress websites with customized features, increasing user engagement by 40%.",
+      "Improved client website performance by 20% through image optimization, caching techniques, and code minification.",
+      "Automated content workflows in WordPress, reducing content update time by 30%.",
+      "Resolved 15+ critical WordPress issues, cutting client support requests by 40%.",
+      "Enhanced customer satisfaction by customizing themes and plugins to meet specific business needs, improving functionality by 15%."
     ],
   },
   {
@@ -167,12 +173,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2021 - Augest 2021",
     points: [
-      "Conducted manual testing for web and mobile applications, including personal React.js projects, identifying defects and improving overall product quality by 15%.",
-      "Managed defect reporting and tracking, reducing defect resolution time by 30% and increasing product reliability by 15%.",
-      "Demonstrated a strong understanding of SDLC and STLC, with experience in test planning, case preparation, and execution, increasing testing efficiency by 25%.",
+      "Completed a 3-month training focused on developing user-friendly web interfaces using HTML5, CSS3, and JavaScript.",
+      "Gained hands-on experience with React.js, working on personal projects to improve user interaction by 20%.",
+      "Practiced version control using Git, reducing code integration issues by 40% and improving collaboration in team environments."
     ],
   },
- 
+
 ];
 
 // Testimonials
@@ -205,6 +211,82 @@ const testimonials = [
 
 // Projects
 const projects = [
+  {
+  name: "React YouTube Clone",
+  description:
+    "Built a fully responsive YouTube Clone using React.js, integrating YouTube Data API v3 for real-time video content. Implemented global state management, dynamic routing, and modern UI design for an interactive user experience.",
+  tags: [
+    {
+      name: "reactjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "green-text-gradient",
+    },
+    {
+      name: "javascript",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "api-integration",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: youtubeClone,
+  live_site_link: "https://react-youtube-clone-pi-five.vercel.app/",
+},
+    {
+  name: "React Blog App",
+  description:
+    "Developed a modern and responsive Blog Application using React.js. Implemented dynamic routing, CRUD functionality, and API integration to manage blog posts efficiently. Focused on clean UI, seamless navigation, and a smooth user experience.",
+  tags: [
+    {
+      name: "reactjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "green-text-gradient",
+    },
+    {
+      name: "javascript",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "api-integration",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: blogApp,
+  live_site_link: "https://react-blog-app-six-dusky.vercel.app/",
+},
+{
+  name: "React Todo App",
+  description:
+    "Created a responsive and interactive Todo App using React.js with features like task addition, editing, deletion, and local storage integration. Focused on a clean UI and smooth user interactions to improve task management efficiency.",
+  tags: [
+    {
+      name: "reactjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "green-text-gradient",
+    },
+    {
+      name: "javascript",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "localstorage",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: todoApp,
+  live_site_link: "https://react-todo-app-lac-gamma.vercel.app/",
+},
+
   {
     name: "Advance Agility",
     description:
